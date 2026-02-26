@@ -6,4 +6,4 @@ Our research spans the following core areas:
 - **Efficient Embodied AI**: efficient Vision-Language-Action (VLA) models, efficient action diffusion models, efficient embodied world models
 - **Efficient Deep Learning**: model compression, model pruning, sparse inference, neural architecture search, efficient training strategies
 
-We are actively looking for self-motivated students and researchers to join our team. If you are interested, please feel free to [contact us](/group/contact).
+We are actively looking for self-motivated students and researchers to join our team. If you are interested, please feel free to [contact us](/contact).
