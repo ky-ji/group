@@ -66,3 +66,9 @@ title = "News"
 type = "page"
 target = "news_page"
 href = "/news_page"
+
+[[navigation]]
+title = "Contact"
+type = "page"
+target = "contact"
+href = "/contact"

@@ -1,0 +1,13 @@
+type = "card"
+title = "联系我们"
+description = "加入我们或咨询更多信息。"
+
+[[items]]
+title = "加入我们"
+subtitle = ""
+content = "如果您对我们小组的研究方向感兴趣，并有意向申请我们小组的日常实习、考研、保研或博士，请访问我们的[实验室招生主页](https://www.sigs.tsinghua.edu.cn/wz/main.htm)，填写申请表，并在申请表中将我们小组的意向列为第一。"
+
+[[items]]
+title = "联系方式"
+subtitle = ""
+content = "如果您对招生、科研方向方面有疑问，或想咨询更多关于我们小组的信息，欢迎邮件联系李也 [liye23@mails.tsinghua.edu.cn](mailto:liye23@mails.tsinghua.edu.cn)。"
