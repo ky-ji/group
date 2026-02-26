@@ -57,7 +57,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                         )}
                         {item.content && (
                             <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-500 leading-relaxed`}>
-                                {item.content}
+                                {renderInlineLinks(item.content)}
                             </p>
                         )}
                         {item.tags && (
