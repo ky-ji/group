@@ -35,12 +35,24 @@
   keywords={Diffusion Policy, Caching, Embodied AI, Efficient Inference}
 }
 
+@article{chen2026wisparse,
+  title = {WiSparse: Boosting LLM Inference Efficiency with Weight-Aware Mixed Activation Sparsity},
+  author = {Lei Chen and Yuan Meng and Xiaoyu Zhan and Zhi Wang and Wenwu Zhu},
+  year = {2026},
+  journal = {arXiv preprint arXiv:2602.14452},
+  pdf = {https://arxiv.org/pdf/2602.14452.pdf},
+  preview = {Wi.png},
+  description = {Weight-aware mixed-granularity activation sparsity for training-free LLM acceleration with adaptive sparsity allocation across blocks.},
+  keywords = {LLM, Activation Sparsity, Efficient Inference}
+}
+
 @article{li2025prance,
   selected={true},
   title={Prance: Joint token-optimization and structural channel-pruning for adaptive vit inference},
   author={Li, Ye and Tang, Chen and Meng, Yuan and Fan, Jiajun and Chai, Zenghao and Ma, Xinzhu and Wang, Zhi and Zhu, Wenwu},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
   year={2025},
+  pdf = {https://arxiv.org/abs/2407.05010},
   publisher={IEEE},
   preview={Prance.png},
   description={A joint token-optimization and structural channel-pruning approach for adaptive vit inference.},
@@ -76,25 +88,27 @@
   year = {2025},
   journal = {arXiv preprint},
   pdf = {https://arxiv.org/pdf/2508.15874},
+  preview = {spatial.png},
   description={A unified spatial-aware visuomotor robotic manipulation framework via explicit spatial modeling and reasoning, achieving over 33\% improvement on Meta-World and over 25\% improvement on iTHOR.},
   keywords={Robotics, Embodied AI, Spatial Reasoning, Visuomotor Control}
 }
 
-@article{prance2025,
-  title = {PRANCE: Joint Token-Optimization and Structural Channel-Pruning for Adaptive ViT Inference},
-  author = {},
-  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)},
+@inproceedings{jiang2025ood,
+  title = {Quantization Meets OOD: Generalizable Quantization-aware Training from a Flatness Perspective},
+  author = {Jiacheng Jiang and Yuan Meng and Chen Tang and Han Yu and Qun Li and Zhi Wang and Wenwu Zhu},
+  booktitle = {ACM International Conference on Multimedia (ACM MM)},
   year = {2025},
-  pdf = {https://arxiv.org/abs/2407.05010},
-  code = {https://github.com/ChildTang/PRANCE},
-  preview = {prance.png},
-  description = {Joint token optimization and structural channel pruning with sample-level adaptive token counts and channel configuration; Result-to-Go provides denser rewards for more stable convergence. On ImageNet, keeps about 10\% tokens with no Top-1 drop and more than 2x FLOPs reduction.},
-  keywords = {Vision Transformer, Token Pruning, Channel Pruning, Efficient Inference}
+  pages = {11937-11946},
+  pdf = {https://dl.acm.org/doi/pdf/10.1145/3746027.3755856},
+  code = {https://github.com/JachinJiang/Quantization-Meets-OOD-Generalizable-Quantization-aware-Training-from-a-Flatness-Perspective},
+  preview = {ood.png},
+  description = {A flatness-oriented QAT method (FQAT) to improve out-of-distribution generalization; introduces layer-wise freezing to mitigate gradient conflicts between QAT and flatness objectives.},
+  keywords = {Quantization, QAT, OOD, Generalization}
 }
 
 @inproceedings{qdit2025,
   title = {Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers},
-  author = {},
+  author = {Lei Chen and Yuan Meng and Chen Tang and Xinzhu Ma and Jingyan Jiang and Xin Wang and Zhi Wang and Wenwu Zhu},
   booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2025},
   pdf = {https://arxiv.org/pdf/2406.17343},
@@ -106,7 +120,7 @@
 
 @inproceedings{joint2025aaai,
   title = {Joint Automatic Architecture Design and Low-Bit Quantization with Hardware-Software Co-Exploration},
-  author = {},
+  author = {Mingzi Wang and Yuan Meng and Chen Tang and Weixiang Zhang and Yijian Qin and Yang Yao and Yingxin Li and Tongtong Feng and Xin Wang and Xun Guan and Zhi Wang and Wenwu Zhu},
   booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
   year = {2025},
   pdf = {https://arxiv.org/pdf/2501.05339},
@@ -117,7 +131,7 @@
 
 @inproceedings{rfquant2024,
   title = {Retraining-free Model Quantization via One-Shot Weight-Coupling Learning},
-  author = {},
+  author = {Chen Tang and Yuan Meng and Jiacheng Jiang and Shuzhao Xie and Rongwei Lu and Xinzhu Ma and Zhi Wang and Wenwu Zhu},
   booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2024},
   pdf = {https://arxiv.org/pdf/2401.01543.pdf},
@@ -127,9 +141,20 @@
   keywords = {Quantization, One-Shot, Efficient Inference}
 }
 
+@article{liu2024qllmgen,
+  title = {Evaluating the Generalization Ability of Quantized LLMs: Benchmark, Analysis, and Toolbox},
+  author = {Yijun Liu and Yuan Meng and Fang Wu and Shenhao Peng and Hang Yao and Chaoyu Guan and Chen Tang and Xinzhu Ma and Zhi Wang and Wenwu Zhu},
+  year = {2024},
+  journal = {arXiv preprint arXiv:2406.12928},
+  pdf = {https://arxiv.org/pdf/2406.12928},
+  preview = {eva.png},
+  description = {Provides a benchmark suite and toolbox to evaluate generalization of quantized LLMs across diverse datasets and calibration distributions.},
+  keywords = {LLM, Quantization, Benchmark, Generalization}
+}
+
 @inproceedings{advrobust2024,
   title = {Investigating the Impact of Quantization on Adversarial Robustness},
-  author = {},
+  author = {Qun Li and Yuan Meng and Chen Tang and Jiacheng Jiang and Zhi Wang},
   booktitle = {ICLR PML4LRS Workshop},
   year = {2024},
   pdf = {https://arxiv.org/pdf/2404.05639.pdf},
@@ -138,9 +163,42 @@
   keywords = {Quantization, Adversarial Robustness}
 }
 
+@article{li2024ems,
+  title = {EMS: Adaptive Evict-then-Merge Strategy for Head-wise KV Cache Compression Based on Global-Local Importance},
+  author = {Yingxin Li and Ye Li and Yuan Meng and Xinzhu Ma and Zihan Geng and Shutao Xia and Zhi Wang},
+  journal = {arXiv preprint arXiv:2412.08521},
+  year = {2024},
+  pdf = {https://arxiv.org/pdf/2412.08521},
+  preview = {EMS.png},
+  description = {Proposes EMS with a Global-Local importance score and an adaptive Evict-then-Merge framework to improve head-wise KV cache compression, achieving strong performance under extreme compression ratios.},
+  keywords = {LLM, KV Cache, Compression, Efficient Inference}
+}
+
+@misc{tmpqdm2024,
+  title = {TMPQ-DM: Joint Timestep Reduction and Quantization Precision Selection for Efficient Diffusion Models},
+  author = {Haojun Sun and Chen Tang and Zhi Wang and Yuan Meng and Jingyan Jiang and Xinzhu Ma and Wenwu Zhu},
+  year = {2024},
+  journal = {arXiv preprint},
+  pdf = {https://arxiv.org/pdf/2404.09532.pdf},
+  preview = {tmpqdm.png},
+  description = {Achieves more than 10x BitOPs savings on five datasets while maintaining generation quality.},
+  keywords = {Diffusion Model, Timestep Reduction, Quantization}
+}
+
+@inproceedings{seam2023,
+  title = {SEAM: Searching Transferable Mixed-Precision Quantization Policy through Large Margin Regularization},
+  author = {Chen Tang and Kai Ouyang and Zenghao Chai and Yunpeng Bai and Yuan Meng and Zhi Wang and Wenwu Zhu},
+  booktitle = {ACM International Conference on Multimedia (ACM MM)},
+  year = {2023},
+  pdf = {https://arxiv.org/pdf/2302.06845.pdf},
+  preview = {seam.png},
+  description = {Searches transferable mixed-precision policies using large-margin regularization.},
+  keywords = {Mixed Precision, Quantization Policy}
+}
+
 @inproceedings{elasticvit2023,
   title = {ElasticViT: Conflict-aware Supernet Training for Deploying Fast Vision Transformer on Diverse Mobile Devices},
-  author = {},
+  author = {Chen Tang and Li Lyna Zhang and Huiqiang Jiang and Jiahang Xu and Ting Cao and Quanlu Zhang and Yuqing Yang and Zhi Wang and Mao Yang},
   booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
   year = {2023},
   pdf = {https://arxiv.org/pdf/2303.09730.pdf},
@@ -152,7 +210,7 @@
 
 @inproceedings{abn2022,
   title = {Arbitrary Bit-width Network: A Joint Layer-Wise Quantization and Adaptive Inference Approach},
-  author = {},
+  author = {Chen Tang and Haoyu Zhai and Kai Ouyang and Zhi Wang and Yifei Zhu and Wenwu Zhu},
   booktitle = {ACM International Conference on Multimedia (ACM MM)},
   year = {2022},
   pdf = {https://arxiv.org/pdf/2204.09992.pdf},
@@ -163,7 +221,7 @@
 
 @inproceedings{limpq2022,
   title = {Mixed-Precision Neural Network Quantization via Learned Layer-Wise Importance},
-  author = {},
+  author = {Chen Tang and Kai Ouyang and Zhi Wang and Yifei Zhu and Yaowei Wang and Wen Ji and Wenwu Zhu},
   booktitle = {European Conference on Computer Vision (ECCV)},
   year = {2022},
   pdf = {https://arxiv.org/pdf/2203.08368.pdf},
@@ -171,26 +229,4 @@
   preview = {limpq.png},
   description = {Layer-wise importance yields mixed-precision policy search up to about 300x faster.},
   keywords = {Mixed Precision, Quantization}
-}
-
-@inproceedings{seam2023,
-  title = {SEAM: Searching Transferable Mixed-Precision Quantization Policy through Large Margin Regularization},
-  author = {},
-  booktitle = {ACM International Conference on Multimedia (ACM MM)},
-  year = {2023},
-  pdf = {https://arxiv.org/pdf/2302.06845.pdf},
-  preview = {seam.png},
-  description = {Searches transferable mixed-precision policies using large-margin regularization.},
-  keywords = {Mixed Precision, Quantization Policy}
-}
-
-@misc{tmpqdm2024,
-  title = {TMPQ-DM: Joint Timestep Reduction and Quantization Precision Selection for Efficient Diffusion Models},
-  author = {},
-  year = {2024},
-  journal = {arXiv preprint},
-  pdf = {https://arxiv.org/pdf/2404.09532.pdf},
-  preview = {tmpqdm.png},
-  description = {Achieves more than 10x BitOPs savings on five datasets while maintaining generation quality.},
-  keywords = {Diffusion Model, Timestep Reduction, Quantization}
 }
