@@ -1,5 +1,3 @@
-
-
 @inproceedings{ji2026testtime,
   selected={true},
   title = {Test-time Sparsity for Extreme Fast Action Diffusion},
@@ -36,6 +34,7 @@
   description={A block-wise adaptive caching approach for accelerating diffusion policy inference.},
   keywords={Diffusion Policy, Caching, Embodied AI, Efficient Inference}
 }
+
 @article{li2025prance,
   selected={true},
   title={Prance: Joint token-optimization and structural channel-pruning for adaptive vit inference},
@@ -79,4 +78,119 @@
   pdf = {https://arxiv.org/pdf/2508.15874},
   description={A unified spatial-aware visuomotor robotic manipulation framework via explicit spatial modeling and reasoning, achieving over 33\% improvement on Meta-World and over 25\% improvement on iTHOR.},
   keywords={Robotics, Embodied AI, Spatial Reasoning, Visuomotor Control}
+}
+
+@article{prance2025,
+  title = {PRANCE: Joint Token-Optimization and Structural Channel-Pruning for Adaptive ViT Inference},
+  author = {},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)},
+  year = {2025},
+  pdf = {https://arxiv.org/abs/2407.05010},
+  code = {https://github.com/ChildTang/PRANCE},
+  preview = {prance.png},
+  description = {Joint token optimization and structural channel pruning with sample-level adaptive token counts and channel configuration; Result-to-Go provides denser rewards for more stable convergence. On ImageNet, keeps about 10\% tokens with no Top-1 drop and more than 2x FLOPs reduction.},
+  keywords = {Vision Transformer, Token Pruning, Channel Pruning, Efficient Inference}
+}
+
+@inproceedings{qdit2025,
+  title = {Q-DiT: Accurate Post-Training Quantization for Diffusion Transformers},
+  author = {},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2025},
+  pdf = {https://arxiv.org/pdf/2406.17343},
+  code = {https://github.com/Juanerx/Q-DiT},
+  preview = {q-dit.png},
+  description = {Addresses large channel/dimension variance and step-dependent activation shifts in DiT quantization; proposes automatic granularity assignment and dynamic quantization. Achieves lossless W6A8 and about 20\% lower FID than prior SOTA.},
+  keywords = {Diffusion Transformer, Post-Training Quantization, Efficient Inference}
+}
+
+@inproceedings{joint2025aaai,
+  title = {Joint Automatic Architecture Design and Low-Bit Quantization with Hardware-Software Co-Exploration},
+  author = {},
+  booktitle = {AAAI Conference on Artificial Intelligence (AAAI)},
+  year = {2025},
+  pdf = {https://arxiv.org/pdf/2501.05339},
+  preview = {aaai2025.png},
+  description = {Jointly optimizes network architecture, ultra-low mixed precision, and accelerator design; channel-level sparse quantization reduces memory, and hardware-generated networks accelerate search.},
+  keywords = {Neural Architecture Search, Mixed Precision, Hardware-Software Co-Design}
+}
+
+@inproceedings{rfquant2024,
+  title = {Retraining-free Model Quantization via One-Shot Weight-Coupling Learning},
+  author = {},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year = {2024},
+  pdf = {https://arxiv.org/pdf/2401.01543.pdf},
+  code = {https://github.com/1hunters/retraining-free-quantization},
+  preview = {rf-quant.png},
+  description = {Analyzes bit-width interference and introduces a bit-width scheduler with alignment to improve stability; achieves strong accuracy without retraining.},
+  keywords = {Quantization, One-Shot, Efficient Inference}
+}
+
+@inproceedings{advrobust2024,
+  title = {Investigating the Impact of Quantization on Adversarial Robustness},
+  author = {},
+  booktitle = {ICLR PML4LRS Workshop},
+  year = {2024},
+  pdf = {https://arxiv.org/pdf/2404.05639.pdf},
+  preview = {adv-robust.png},
+  description = {Defines a quantization pipeline and decomposes components to analyze their effects on adversarial robustness.},
+  keywords = {Quantization, Adversarial Robustness}
+}
+
+@inproceedings{elasticvit2023,
+  title = {ElasticViT: Conflict-aware Supernet Training for Deploying Fast Vision Transformer on Diverse Mobile Devices},
+  author = {},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year = {2023},
+  pdf = {https://arxiv.org/pdf/2303.09730.pdf},
+  code = {https://github.com/microsoft/Moonlit/tree/main/ElasticViT},
+  preview = {elasticvit.png},
+  description = {Achieves up to 2x on-device inference speed across diverse mobile devices.},
+  keywords = {Vision Transformer, Mobile Deployment, Efficient Inference}
+}
+
+@inproceedings{abn2022,
+  title = {Arbitrary Bit-width Network: A Joint Layer-Wise Quantization and Adaptive Inference Approach},
+  author = {},
+  booktitle = {ACM International Conference on Multimedia (ACM MM)},
+  year = {2022},
+  pdf = {https://arxiv.org/pdf/2204.09992.pdf},
+  preview = {abn.png},
+  description = {Saves 10\%-15\% compute compared with highly compressed models.},
+  keywords = {Quantization, Adaptive Inference}
+}
+
+@inproceedings{limpq2022,
+  title = {Mixed-Precision Neural Network Quantization via Learned Layer-Wise Importance},
+  author = {},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year = {2022},
+  pdf = {https://arxiv.org/pdf/2203.08368.pdf},
+  code = {https://github.com/1hunters/LIMPQ},
+  preview = {limpq.png},
+  description = {Layer-wise importance yields mixed-precision policy search up to about 300x faster.},
+  keywords = {Mixed Precision, Quantization}
+}
+
+@inproceedings{seam2023,
+  title = {SEAM: Searching Transferable Mixed-Precision Quantization Policy through Large Margin Regularization},
+  author = {},
+  booktitle = {ACM International Conference on Multimedia (ACM MM)},
+  year = {2023},
+  pdf = {https://arxiv.org/pdf/2302.06845.pdf},
+  preview = {seam.png},
+  description = {Searches transferable mixed-precision policies using large-margin regularization.},
+  keywords = {Mixed Precision, Quantization Policy}
+}
+
+@misc{tmpqdm2024,
+  title = {TMPQ-DM: Joint Timestep Reduction and Quantization Precision Selection for Efficient Diffusion Models},
+  author = {},
+  year = {2024},
+  journal = {arXiv preprint},
+  pdf = {https://arxiv.org/pdf/2404.09532.pdf},
+  preview = {tmpqdm.png},
+  description = {Achieves more than 10x BitOPs savings on five datasets while maintaining generation quality.},
+  keywords = {Diffusion Model, Timestep Reduction, Quantization}
 }
