@@ -1,13 +1,13 @@
 type = "card"
 title = "联系我们"
-description = "加入我们或咨询更多信息。"
+description = "我们期待志同道合的伙伴加入，共同探索高效深度学习与具身智能的前沿。"
 
 [[items]]
 title = "加入我们"
 subtitle = ""
-content = "如果您对我们小组的研究方向感兴趣，并有意向申请我们小组的日常实习、考研、保研或博士，请访问我们的[实验室招生主页](https://www.sigs.tsinghua.edu.cn/wz/main.htm)，填写申请表，并在申请表中将我们小组的意向列为第一。"
+content = "我们欢迎对高效深度学习与具身智能方向充满热情的同学加入课题组。如果您有意申请日常实习、考研、保研或博士，请访问我们的[实验室招生主页](https://www.sigs.tsinghua.edu.cn/wz/main.htm)并填写申请表。"
 
 [[items]]
 title = "联系方式"
 subtitle = ""
-content = "如果您对招生、科研方向方面有疑问，或想咨询更多关于我们小组的信息，欢迎邮件联系李也 [liye23@mails.tsinghua.edu.cn](mailto:liye23@mails.tsinghua.edu.cn)。"
+content = "如果您对招生政策、科研方向有任何疑问，或希望进一步了解我们小组的工作，欢迎发送邮件至 [liye23@mails.tsinghua.edu.cn](mailto:liye23@mails.tsinghua.edu.cn)（李也） 或 [jky25@mails.tsinghua.edu.cn](mailto:jky25@mails.tsinghua.edu.cn)(季康烨)。我们会在一周内回复您的邮件。"
