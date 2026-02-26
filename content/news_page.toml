@@ -6,33 +6,12 @@ description = "Latest updates from our group."
 title = "CVPR 2026 Paper Accepted"
 subtitle = ""
 date = "2026-02"
-content = "Our paper on efficient embodied agents has been accepted by CVPR 2026."
+content = "One paper on efficient action diffusion models accepted by CVPR 2026."
 tags = ["Publication"]
 
 [[items]]
-title = "New Members"
+title = "ICLR 2026 Papers Accepted"
 subtitle = ""
 date = "2026-01"
-content = "Welcome new PhD students joining our group this semester!"
-tags = ["Group"]
-
-[[items]]
-title = "EmbodiedBench Released"
-subtitle = ""
-date = "2025-11"
-content = "We release EmbodiedBench, a comprehensive benchmark for evaluating multi-modal large language models as embodied agents."
-tags = ["Benchmark", "Open Source"]
-
-[[items]]
-title = "NeurIPS 2025"
-subtitle = ""
-date = "2025-09"
-content = "Two papers accepted at NeurIPS 2025 on efficient model compression and embodied navigation."
+content = "Two papers on efficient embodied models accepted by ICLR 2026."
 tags = ["Publication"]
-
-[[items]]
-title = "Outstanding Research Award"
-subtitle = ""
-date = "2025-06"
-content = "Our group received the Outstanding Research Award from MMLab for contributions to efficient deep learning."
-tags = ["Award"]

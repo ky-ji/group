@@ -27,7 +27,7 @@ enable_one_page_mode = false
 [i18n]
 enabled = true
 locales = ["zh", "en"]
-default_locale = "en"
+default_locale = "zh"
 mode = "auto"
 fixed_locale = "en"
 persist = true
