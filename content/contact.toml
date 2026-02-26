@@ -1,0 +1,13 @@
+type = "card"
+title = "Contact Us"
+description = "We look forward to welcoming like-minded partners to explore the frontiers of efficient deep learning and embodied AI together."
+
+[[items]]
+title = "Join Us"
+subtitle = ""
+content = "We welcome students who are passionate about efficient deep learning and embodied AI to join our group. If you are interested in applying for a daily internship, master's, or PhD position, please visit our [lab admission page](https://www.sigs.tsinghua.edu.cn/wz/main.htm) and fill out the application form."
+
+[[items]]
+title = "Get in Touch"
+subtitle = ""
+content = "If you have any questions about admissions, research directions, or would like to learn more about our group, please feel free to reach out to [liye23@mails.tsinghua.edu.cn](mailto:liye23@mails.tsinghua.edu.cn) (Ye Li) or [jky25@mails.tsinghua.edu.cn](mailto:jky25@mails.tsinghua.edu.cn) (Kangye Ji). We will reply to your email within one week."

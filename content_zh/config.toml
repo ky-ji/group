@@ -44,3 +44,9 @@ title = "动态"
 type = "page"
 target = "news_page"
 href = "/news_page"
+
+[[navigation]]
+title = "联系我们"
+type = "page"
+target = "contact"
+href = "/contact"
