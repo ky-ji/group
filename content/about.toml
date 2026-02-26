@@ -4,10 +4,8 @@ title = "Home"
 [profile]
 research_interests = [
   "Efficient Deep Learning",
-  "Embodied AI",
-  "Model Compression & Acceleration",
-  "Vision-Language Models",
-  "Robotics & Embodied Agents"
+  "Efficient Embodied AI",
+  "Vision-Language-Action Models"
 ]
 
 [[sections]]

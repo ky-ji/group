@@ -17,8 +17,15 @@ content = "Department of Computer Science, Tsinghua University. Email: yuanmeng@
 tags = ["Faculty"]
 
 [[items]]
-title = "Ye Li"
+title = "[Ye Li](https://scholar.google.com/citations?user=Nof6bfUAAAAJ)"
 subtitle = "PhD Student"
 date = ""
-content = "Tsinghua Shenzhen International Graduate School. Email: liye23@mails.tsinghua.edu.cn"
+content = "Email: liye23@mails.tsinghua.edu.cn"
+tags = ["PhD Student"]
+
+[[items]]
+title = "[Kangye Ji](https://ky-ji.github.io)"
+subtitle = "PhD Student"
+date = ""
+content = "Email: jky25@mails.tsinghua.edu.cn"
 tags = ["PhD Student"]

@@ -13,5 +13,5 @@ tags = ["VLA", "Action Diffusion", "Embodied World Model"]
 title = "Efficient Deep Learning"
 subtitle = ""
 date = ""
-content = "We develop methods for model compression, model pruning, sparse inference, neural architecture search, and efficient training strategies to enable efficient deployment and acceleration of deep learning models."
+content = "We develop methods for model compression, model pruning, sparse inference, neural architecture search, and efficient training strategies to enable efficient deployment and acceleration of general-purpose deep learning models."
 tags = ["Model Compression", "Pruning", "Sparse Inference", "NAS", "Efficient Training"]
