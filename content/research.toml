@@ -3,29 +3,15 @@ title = "Research"
 description = "Our research directions and ongoing projects."
 
 [[items]]
+title = "Efficient Embodied AI"
+subtitle = ""
+date = ""
+content = "We study efficient Vision-Language-Action (VLA) models, efficient action diffusion models, and efficient embodied world models, enabling agents to perceive, reason, and act efficiently under resource-constrained conditions."
+tags = ["VLA", "Action Diffusion", "Embodied World Model"]
+
+[[items]]
 title = "Efficient Deep Learning"
 subtitle = ""
 date = ""
-content = "We develop methods for model compression, pruning, quantization, and neural architecture search to enable efficient deployment of deep learning models on edge devices and mobile platforms."
-tags = ["Model Compression", "NAS", "Quantization", "Pruning"]
-
-[[items]]
-title = "Embodied AI & Robotics"
-subtitle = ""
-date = ""
-content = "We build intelligent embodied agents that can perceive, reason, and act in complex real-world environments. Our work covers robotic manipulation, navigation, and multi-modal embodied reasoning."
-tags = ["Robotics", "Manipulation", "Navigation", "Embodied Agents"]
-
-[[items]]
-title = "Vision-Language Models"
-subtitle = ""
-date = ""
-content = "We study efficient adaptation and deployment of large-scale vision-language models, including efficient fine-tuning, prompt tuning, and multi-modal alignment techniques."
-tags = ["VLM", "MLLM", "Efficient Adaptation"]
-
-[[items]]
-title = "Efficient Training & Inference"
-subtitle = ""
-date = ""
-content = "We explore efficient training strategies such as knowledge distillation, mixed-precision training, and distributed optimization, as well as inference acceleration techniques for real-time applications."
-tags = ["Distillation", "Mixed Precision", "Inference Optimization"]
+content = "We develop methods for model compression, model pruning, sparse inference, neural architecture search, and efficient training strategies to enable efficient deployment and acceleration of deep learning models."
+tags = ["Model Compression", "Pruning", "Sparse Inference", "NAS", "Efficient Training"]

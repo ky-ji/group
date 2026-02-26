@@ -7,21 +7,21 @@ title = "[王智](https://www.mmlab.top/)"
 subtitle = "课题组负责人"
 date = ""
 content = "邮箱：wangzhi@sz.tsinghua.edu.cn"
-tags = ["教师"]
+
 
 [[items]]
 title = "[孟媛](https://mengyuan404.github.io/)"
 subtitle = "教师"
 date = ""
 content = "邮箱：yuanmeng@tsinghua.edu.cn"
-tags = ["教师"]
+
 
 [[items]]
 title = "[李也](https://scholar.google.com/citations?user=Nof6bfUAAAAJ)"
 subtitle = "博士生"
 date = ""
 content = "邮箱：liye23@mails.tsinghua.edu.cn"
-tags = ["博士生"]
+
 
 
 [[items]]
@@ -29,4 +29,4 @@ title = "[季康烨](https://ky-ji.github.io)"
 subtitle = "博士生"
 date = ""
 content = "邮箱：jky25@mails.tsinghua.edu.cn"
-tags = ["博士生"]
+
