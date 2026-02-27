@@ -1,5 +1,5 @@
 export interface BasePageConfig {
-    type: 'about' | 'publication' | 'card' | 'text';
+    type: 'about' | 'publication' | 'card' | 'text' | 'members';
     title: string;
     description?: string;
 }
@@ -27,4 +27,27 @@ export interface CardItem {
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
     items: CardItem[];
+}
+
+export interface MemberItem {
+    name: string;
+    homepage?: string;
+    avatar?: string;
+    role: string;
+    category: 'faculty' | 'phd' | 'master' | 'alumni';
+    email?: string;
+    year?: string;
+    interests?: string[];
+    note?: string;
+}
+
+export interface MemberGroup {
+    category: 'faculty' | 'phd' | 'master' | 'alumni';
+    label: string;
+    members: MemberItem[];
+}
+
+export interface MembersPageConfig extends BasePageConfig {
+    type: 'members';
+    groups: MemberGroup[];
 }

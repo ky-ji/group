@@ -1,31 +1,127 @@
-type = "card"
+type = "members"
 title = "Members"
 description = "Our team of researchers and students."
 
-[[items]]
-title = "[Prof. Zhi Wang](https://www.mmlab.top/)"
-subtitle = "Principal Investigator"
-date = ""
-content = "Tsinghua Shenzhen International Graduate School. Email: wangzhi@sz.tsinghua.edu.cn"
-tags = ["Faculty"]
+# ── Faculty ──────────────────────────────────────────────
+[[groups]]
+category = "faculty"
+label = "Faculty"
 
-[[items]]
-title = "[Yuan Meng](https://mengyuan404.github.io/)"
-subtitle = "Faculty"
-date = ""
-content = "Department of Computer Science, Tsinghua University. Email: yuanmeng@tsinghua.edu.cn"
-tags = ["Faculty"]
+[[groups.members]]
+name = "Prof. Zhi Wang"
+homepage = "https://www.mmlab.top/"
+role = "Principal Investigator"
+email = "wangzhi@sz.tsinghua.edu.cn"
+interests = ["Multimedia Computing", "Computer Vision"]
 
-[[items]]
-title = "[Ye Li](https://scholar.google.com/citations?user=Nof6bfUAAAAJ)"
-subtitle = "PhD Student"
-date = ""
-content = "Email: liye23@mails.tsinghua.edu.cn"
-tags = ["PhD Student"]
+[[groups.members]]
+name = "Yuan Meng"
+homepage = "https://mengyuan404.github.io/"
+role = "Faculty"
+email = "yuanmeng@tsinghua.edu.cn"
+interests = ["Model Compression", "Efficient AI"]
 
-[[items]]
-title = "[Kangye Ji](https://ky-ji.github.io)"
-subtitle = "PhD Student"
-date = ""
-content = "Email: jky25@mails.tsinghua.edu.cn"
-tags = ["PhD Student"]
+# ── PhD Students ─────────────────────────────────────────
+[[groups]]
+category = "phd"
+label = "PhD Students"
+
+[[groups.members]]
+name = "Ye Li"
+homepage = "https://scholar.google.com/citations?user=Nof6bfUAAAAJ"
+role = "PhD Student"
+email = "liye23@mails.tsinghua.edu.cn"
+year = "2023"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+[[groups.members]]
+name = "Kangye Ji"
+homepage = "https://ky-ji.github.io"
+role = "PhD Student"
+email = "jky25@mails.tsinghua.edu.cn"
+year = "2025"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+# ── Master Students ──────────────────────────────────────
+[[groups]]
+category = "master"
+label = "Master Students"
+#
+# [[groups.members]]
+# name = "Example Student"
+# role = "Master Student"
+# year = "2024"
+# interests = ["Deep Learning"]
+
+
+[[groups.members]]
+name = "Lei Chen"
+role = "Master Student"
+year = "2024"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+[[groups.members]]
+name = "Jiacheng Jiang"
+role = "Master Student"
+year = "2024"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+[[groups.members]]
+name = "Yingxin Li"
+role = "Master Student"
+year = "2024"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+
+[[groups.members]]
+name = "Yutian Shen"
+role = "Master Student"
+year = "2025"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+
+[[groups.members]]
+name = "Hanyun Cui"
+role = "Master Student"
+year = "2026"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
+
+
+
+
+
+
+
+# ── Alumni ───────────────────────────────────────────────
+[[groups]]
+category = "alumni"
+label = "Alumni"
+#
+# [[groups.members]]
+# name = "Example Alumni"
+# role = "Former Master Student"
+# year = "2020 - 2023"
+# note = "Now at Example Company"
+
+[[groups.members]]
+name = "Chen Tang"
+homepage = "https://www.chentang.cc/"
+role = "Former Master Student"
+year = "2022 - 2024"
+note = "Now at CUHK"
+
+[[groups.members]]
+name = "Mingzi Wang"
+homepage = "https://wmz-max.github.io/"
+role = "Former Master Student"
+year = "2023 - 2025"
+note = "Now at CUHK"
+
+
+[[groups.members]]
+name = "Siao Tang"
+homepage = "https://scholar.google.com/citations?user=0LBP5eIAAAAJ&hl=zh-CN"
+role = "Former Master Student"
+year = "2023 - 2025"
+note = "Now at NUS"

@@ -1,32 +1,127 @@
-type = "card"
+type = "members"
 title = "成员"
 description = "我们的研究团队。"
 
-[[items]]
-title = "[王智](https://www.mmlab.top/)"
-subtitle = "课题组负责人"
-date = ""
-content = "邮箱：wangzhi@sz.tsinghua.edu.cn"
+# ── 指导老师 ─────────────────────────────────────────────
+[[groups]]
+category = "faculty"
+label = "指导老师"
+
+[[groups.members]]
+name = "王智"
+homepage = "https://www.mmlab.top/"
+role = "课题组负责人"
+email = "wangzhi@sz.tsinghua.edu.cn"
+interests = ["多媒体计算", "计算机视觉"]
+
+[[groups.members]]
+name = "孟媛"
+homepage = "https://mengyuan404.github.io/"
+role = "教师"
+email = "yuanmeng@tsinghua.edu.cn"
+interests = ["模型压缩", "边缘计算"]
+
+# ── 博士生 ───────────────────────────────────────────────
+[[groups]]
+category = "phd"
+label = "博士生"
+
+[[groups.members]]
+name = "李也"
+homepage = "https://scholar.google.com/citations?user=Nof6bfUAAAAJ"
+role = "博士生"
+email = "liye23@mails.tsinghua.edu.cn"
+year = "2023级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+[[groups.members]]
+name = "季康烨"
+homepage = "https://ky-ji.github.io"
+role = "博士生"
+email = "jky25@mails.tsinghua.edu.cn"
+year = "2025级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+# ── 硕士生 ───────────────────────────────────────────────
+[[groups]]
+category = "master"
+label = "硕士生"
+#
+# [[groups.members]]
+# name = "示例同学"
+# role = "硕士生"
+# year = "2024级"
+# interests = ["深度学习"]
 
 
-[[items]]
-title = "[孟媛](https://mengyuan404.github.io/)"
-subtitle = "教师"
-date = ""
-content = "邮箱：yuanmeng@tsinghua.edu.cn"
-
-
-[[items]]
-title = "[李也](https://scholar.google.com/citations?user=Nof6bfUAAAAJ)"
-subtitle = "博士生"
-date = ""
-content = "邮箱：liye23@mails.tsinghua.edu.cn"
 
 
 
-[[items]]
-title = "[季康烨](https://ky-ji.github.io)"
-subtitle = "博士生"
-date = ""
-content = "邮箱：jky25@mails.tsinghua.edu.cn"
+[[groups.members]]
+name = "陈磊"
+role = "硕士生"
+year = "2024级"
+interests = ["具身智能", "视觉-语言-动作模型"]
 
+[[groups.members]]
+name = "姜佳成"
+role = "硕士生"
+year = "2024级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+[[groups.members]]
+name = "李迎欣"
+role = "硕士生"
+year = "2024级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+[[groups.members]]
+name = "申雨田"
+role = "硕士生"
+year = "2025级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+[[groups.members]]
+name = "崔瀚匀"
+role = "硕士生"
+year = "2026级"
+interests = ["具身智能", "视觉-语言-动作模型"]
+
+
+
+
+
+
+
+
+# ── 毕业生 ───────────────────────────────────────────────
+[[groups]]
+category = "alumni"
+label = "毕业生"
+#
+# [[groups.members]]
+# name = "示例毕业生"
+# role = "已毕业硕士"
+# year = "2020 - 2023"
+# note = "现就职于某公司"
+
+[[groups.members]]
+name = "唐辰"
+homepage = "https://www.chentang.cc/"
+role = "已毕业硕士"
+year = "2022 - 2024"
+note = "现就读于香港中文大学"
+
+[[groups.members]]
+name = "王铭梓"
+homepage = "https://wmz-max.github.io/"
+role = "已毕业硕士"
+year = "2023 - 2025"
+note = "现就读于香港中文大学"
+
+[[groups.members]]
+name = "汤思奥"
+homepage = "https://scholar.google.com/citations?user=0LBP5eIAAAAJ&hl=zh-CN"
+role = "已毕业硕士"
+year = "2023 - 2025"
+note = "现就读于新加坡国立大学"
