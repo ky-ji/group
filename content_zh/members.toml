@@ -125,6 +125,18 @@ year = "2022级"
 note = "现就读于香港中文大学"
 
 [[groups.members]]
+name = "杜南洋"
+role = "已毕业硕士"
+year = "2022级"
+note = "现就职于字节跳动"
+
+[[groups.members]]
+name = "孙昊均"
+role = "已毕业硕士"
+year = "2022级"
+note = "现就职于面壁智能"
+
+[[groups.members]]
 name = "王铭梓"
 homepage = "https://wmz-max.github.io/"
 role = "已毕业硕士"

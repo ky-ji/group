@@ -125,6 +125,18 @@ year = "2022"
 note = "Now at CUHK"
 
 [[groups.members]]
+name = "Nanyang Du"
+role = "Former Master Student"
+year = "2022"
+note = "Now at ByteDance"
+
+[[groups.members]]
+name = "Haojun Sun"
+role = "Former Master Student"
+year = "2022"
+note = "Now at ModelBest"
+
+[[groups.members]]
 name = "Mingzi Wang"
 homepage = "https://wmz-max.github.io/"
 role = "Former Master Student"
