@@ -1,4 +1,4 @@
-Welcome to the **Efficient Deep Learning and Embodiment Group** at [MMLab]().
+Welcome to the **Efficient Deep Learning and Embodiment Group** at [MMLab@SIGS]().
 
 Our group focuses on developing efficient deep learning methods and their applications in embodied AI systems. We aim to bridge the gap between powerful deep learning models and real-world deployment on resource-constrained platforms, including robots and edge devices.
 

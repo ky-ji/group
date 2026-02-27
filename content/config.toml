@@ -1,13 +1,13 @@
 [site]
 title = "Efficient Deep Learning and Embodiment Group"
-description = "Research group at MMLab, focusing on efficient deep learning and embodied AI."
+description = "Research group at MMLab@SIGS, focusing on efficient deep learning and embodied AI."
 favicon = "/favicon.svg"
 last_updated = "February 2026"
 
 [author]
 name = "Efficient Deep Learning and Embodiment Group"
 title = "Research Group"
-institution = "MMLab"
+institution = "MMLab@SIGS"
 avatar = "/walle.jpg"
 
 [social]
