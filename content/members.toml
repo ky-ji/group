@@ -108,14 +108,14 @@ label = "Alumni"
 name = "Chen Tang"
 homepage = "https://www.chentang.cc/"
 role = "Former Master Student"
-year = "2022 - 2024"
+year = "2022"
 note = "Now at CUHK"
 
 [[groups.members]]
 name = "Mingzi Wang"
 homepage = "https://wmz-max.github.io/"
 role = "Former Master Student"
-year = "2023 - 2025"
+year = "2023"
 note = "Now at CUHK"
 
 
@@ -123,5 +123,5 @@ note = "Now at CUHK"
 name = "Siao Tang"
 homepage = "https://scholar.google.com/citations?user=0LBP5eIAAAAJ&hl=zh-CN"
 role = "Former Master Student"
-year = "2023 - 2025"
+year = "2023"
 note = "Now at NUS"

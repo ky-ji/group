@@ -109,19 +109,19 @@ label = "毕业生"
 name = "唐辰"
 homepage = "https://www.chentang.cc/"
 role = "已毕业硕士"
-year = "2022 - 2024"
+year = "2022级"
 note = "现就读于香港中文大学"
 
 [[groups.members]]
 name = "王铭梓"
 homepage = "https://wmz-max.github.io/"
 role = "已毕业硕士"
-year = "2023 - 2025"
+year = "2023级"
 note = "现就读于香港中文大学"
 
 [[groups.members]]
 name = "汤思奥"
 homepage = "https://scholar.google.com/citations?user=0LBP5eIAAAAJ&hl=zh-CN"
 role = "已毕业硕士"
-year = "2023 - 2025"
+year = "2023级"
 note = "现就读于新加坡国立大学"
