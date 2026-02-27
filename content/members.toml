@@ -78,6 +78,12 @@ role = "Master Student"
 year = "2024"
 interests = ["Embodied AI", "Vision-Language-Action Models"]
 
+[[groups.members]]
+name = "Yijun Liu"
+role = "Master Student"
+year = "2024"
+interests = ["Embodied AI", "Vision-Language-Action Models"]
+
 
 
 [[groups.members]]
