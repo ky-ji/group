@@ -119,6 +119,73 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 ```
 
+### 部署到组织站点子目录（例如 `mmlab-sigs/groups`）
+
+如果你不是部署到仓库根路径，而是要把站点放到一个已有 GitHub Pages 站点的子目录，例如：
+
+`https://mmlab-sigs.github.io/groups/efficient-deep-learning-and-embodiment-group/`
+
+推荐做法是：
+
+1. 不要把 `basePath` 写死在代码里。
+2. 构建时通过环境变量传入目标路径。
+3. 只把 `out/` 里的静态文件上传到目标目录。
+
+本项目已经支持通过 `PRISM_BASE_PATH` 指定部署前缀，因此可以直接运行：
+
+```bash
+npm install
+npm run build:mmlab-group
+```
+
+这等价于：
+
+```bash
+PRISM_BASE_PATH=/groups/efficient-deep-learning-and-embodiment-group npm run build
+```
+
+由于 `mmlab-sigs/groups` 是一个 Jekyll 仓库，而 Next.js 默认会输出 `/_next/` 资源目录，本项目的 `build:mmlab-group` 还会自动将这些资源改写为普通目录名 `next-assets/`，以避免 GitHub Pages 在 Jekyll 构建时忽略以下划线开头的目录。
+
+构建完成后：
+
+1. 打开生成的 `out/` 目录。
+2. 将其中所有文件复制到目标仓库的 `efficient-deep-learning-and-embodiment-group/` 目录下。
+3. 如果目标仓库启用了 GitHub Pages，访问：
+
+`https://mmlab-sigs.github.io/groups/efficient-deep-learning-and-embodiment-group/`
+
+这种方式最稳妥，因为目标仓库是一个“多组共享”的 Jekyll 静态站点仓库，而不是单独给这个项目运行 Next.js 构建流程的源码仓库。本项目已经在构建阶段把 Next.js 默认的 `/_next/` 资源目录改写为 `next-assets/`，因此不需要也不应该在目标仓库根目录设置 `.nojekyll`。
+
+### 使用 GitHub Actions 自动同步到 `mmlab-sigs/groups`
+
+如果你希望今后每次推送到当前仓库的 `main` 分支时自动更新组织站点，本仓库已经提供了工作流：
+
+`/.github/workflows/deploy-mmlab-groups.yml`
+
+它会自动执行以下步骤：
+
+1. 安装依赖。
+2. 运行 `npm run build:mmlab-group`。
+3. 将生成的 `out/` 内容同步到 `mmlab-sigs/groups` 仓库的 `efficient-deep-learning-and-embodiment-group/` 目录。
+4. 自动提交并推送。
+
+启用前需要先在当前仓库的 GitHub 设置里添加一个 Repository Secret：
+
+- 名称：`MMLAB_SIGS_GROUPS_TOKEN`
+- 内容：一个有权限写入 `mmlab-sigs/groups` 仓库的 Personal Access Token
+
+推荐权限：
+
+- 如果使用 fine-grained PAT：给 `mmlab-sigs/groups` 授予 `Contents: Read and write`
+- 如果使用 classic PAT：至少需要 `public_repo`
+
+配置完成后：
+
+1. 推送一次到当前仓库 `main`，或
+2. 在 GitHub 的 **Actions** 页面手动运行 **Sync to MMLab SIGS Groups**
+
+即可自动完成发布。
+
 ---
 
 ## 方案二：Cloudflare Pages

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "build:mmlab-group": "PRISM_BASE_PATH=/groups/efficient-deep-learning-and-embodiment-group next build && node scripts/make-jekyll-safe.mjs --out out --asset-dir next-assets",
     "start": "next start",
     "lint": "next lint"
   },
