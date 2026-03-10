@@ -30,6 +30,8 @@ env:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      DEPLOY_TOKEN: ${{ secrets.MMLAB_SIGS_GROUPS_TOKEN }}
 
     steps:
       - name: Checkout source repository
@@ -47,11 +49,23 @@ jobs:
       - name: Build static site for MMLab SIGS
         run: npm run build:mmlab-group
 
+      - name: Validate deployment token
+        run: |
+          set -euo pipefail
+
+          if [ -z "${DEPLOY_TOKEN:-}" ]; then
+            echo "::error::Missing repository secret MMLAB_SIGS_GROUPS_TOKEN."
+            exit 1
+          fi
+
+          git ls-remote "https://x-access-token:${DEPLOY_TOKEN}@github.com/${TARGET_REPOSITORY}.git" HEAD >/dev/null
+
       - name: Checkout target repository
         uses: actions/checkout@v4
         with:
           repository: ${{ env.TARGET_REPOSITORY }}
-          token: ${{ secrets.MMLAB_SIGS_GROUPS_TOKEN }}
+          ref: main
+          token: ${{ env.DEPLOY_TOKEN }}
           path: target-repo
 
       - name: Sync generated files
@@ -60,6 +74,7 @@ jobs:
       - name: Commit and push changes
         working-directory: target-repo
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "${TARGET_DIRECTORY}"
@@ -70,4 +85,4 @@ jobs:
           fi
 
           git commit -m "Deploy ${TARGET_DIRECTORY} site"
-          git push origin HEAD:main
+          git push "https://x-access-token:${DEPLOY_TOKEN}@github.com/${TARGET_REPOSITORY}.git" HEAD:main
