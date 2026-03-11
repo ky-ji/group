@@ -56,9 +56,16 @@ export default function SelectedPublications({ publications, title, enableOnePag
                                 </span>
                             ))}
                         </p>
-                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-2">
-                            {pub.journal || pub.conference}
-                        </p>
+                        <div className="mb-2 flex flex-wrap items-center gap-2 text-sm">
+                            {(pub.conference || pub.journal) ? (
+                                <span className="inline-flex items-center rounded-full border border-accent/25 bg-accent/10 px-3 py-1 font-semibold text-accent dark:border-accent/35 dark:bg-accent/15">
+                                    {pub.conference || pub.journal}
+                                </span>
+                            ) : null}
+                            <span className="text-neutral-500 dark:text-neutral-400">
+                                {pub.year}
+                            </span>
+                        </div>
                         {pub.description && (
                             <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
                                 {pub.description}

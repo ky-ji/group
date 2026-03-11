@@ -230,13 +230,9 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
-                                        {pub.conference ? (
+                                        {(pub.conference || pub.journal) ? (
                                             <span className="inline-flex items-center rounded-full border border-accent/25 bg-accent/10 px-3 py-1 font-semibold text-accent dark:border-accent/35 dark:bg-accent/15">
-                                                {pub.conference}
-                                            </span>
-                                        ) : pub.journal ? (
-                                            <span className="font-medium text-neutral-700 dark:text-neutral-300">
-                                                {pub.journal}
+                                                {pub.conference || pub.journal}
                                             </span>
                                         ) : null}
                                         <span className="text-neutral-500 dark:text-neutral-400">
