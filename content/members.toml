@@ -58,31 +58,31 @@ label = "Master Students"
 name = "Lei Chen"
 role = "Master Student"
 year = "2024"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 [[groups.members]]
 name = "Jiacheng Jiang"
 role = "Master Student"
 year = "2024"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 [[groups.members]]
 name = "Yingxin Li"
 role = "Master Student"
 year = "2024"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 [[groups.members]]
 name = "Qun Li"
 role = "Master Student"
 year = "2024"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 [[groups.members]]
 name = "Yijun Liu"
 role = "Master Student"
 year = "2024"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 
 
@@ -90,14 +90,14 @@ interests = ["Embodied AI", "Vision-Language-Action Models"]
 name = "Yutian Shen"
 role = "Master Student"
 year = "2025"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 
 [[groups.members]]
 name = "Hanyun Cui"
 role = "Master Student"
 year = "2026"
-interests = ["Embodied AI", "Vision-Language-Action Models"]
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
 
 
 

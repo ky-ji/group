@@ -61,43 +61,43 @@ label = "硕士生"
 name = "陈磊"
 role = "硕士生"
 year = "2024级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "姜佳成"
 role = "硕士生"
 year = "2024级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "李迎欣"
 role = "硕士生"
 year = "2024级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "李群"
 role = "硕士生"
 year = "2024级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "刘怡君"
 role = "硕士生"
 year = "2024级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "申雨田"
 role = "硕士生"
 year = "2025级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 [[groups.members]]
 name = "崔瀚匀"
 role = "硕士生"
 year = "2026级"
-interests = ["具身智能", "视觉-语言-动作模型"]
+# interests = ["具身智能", "视觉-语言-动作模型"]
 
 
 
