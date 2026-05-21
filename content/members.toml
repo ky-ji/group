@@ -99,6 +99,12 @@ role = "Master Student"
 year = "2026"
 # interests = ["Embodied AI", "Vision-Language-Action Models"]
 
+[[groups.members]]
+name = "Huanan Liu"
+role = "Master Student"
+year = "2026"
+# interests = ["Embodied AI", "Vision-Language-Action Models"]
+
 
 
 
