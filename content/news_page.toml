@@ -3,6 +3,13 @@ title = "News"
 description = "Latest updates from our group."
 
 [[items]]
+title = "ICML 2026 Paper Accepted"
+subtitle = ""
+date = "2026-05"
+content = "One paper on efficient diffusion policy acceleration accepted by ICML 2026."
+tags = ["Publication"]
+
+[[items]]
 title = "CVPR 2026 Paper Accepted"
 subtitle = ""
 date = "2026-02"

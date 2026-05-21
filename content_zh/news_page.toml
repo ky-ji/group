@@ -3,6 +3,13 @@ title = "动态"
 description = "课题组最新动态。"
 
 [[items]]
+title = "ICML 2026 论文接收"
+subtitle = ""
+date = "2026-05"
+content = "1篇关于高效扩散策略加速的论文被 ICML 2026 接收。"
+tags = ["论文"]
+
+[[items]]
 title = "CVPR 2026 论文接收"
 subtitle = ""
 date = "2026-02"
